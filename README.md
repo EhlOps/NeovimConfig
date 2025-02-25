@@ -4,6 +4,8 @@ A basic NeoVim config for working in C.
 
 ## Installation
 
+Prior to installation, you will most likely want to install a nerd font configure your terminal to use it. Nerd fonts can be found [here](https://www.nerdfonts.com/font-downloads).
+
 ### Linux
 
 To install this config on a Linux distrobution, follow the following steps:
