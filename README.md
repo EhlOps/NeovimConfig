@@ -8,19 +8,25 @@ A basic NeoVim config for working in C.
 
 To install this config on a Linux distrobution, follow the following steps:
 
-1. Install NeoVim, which can be done on x86_64 Ubuntu/Debian distros by executing thie following:
+1. Install NeoVim, which can be done on x86_64 Ubuntu/Debian distros by running `sudo apt install neovim -y`
+2. Install ripgrep to enable the live-grepping functionality using `sudo apt install ripgrep -y`
+3. Create a folder `~/.config/nvim`
+4. Clone this repository in `~/.config/nvim`
+5. Run `nvim`
 
-```bash
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux-x86_64.tar.gz
-sudo rm -rf /opt/nvim
-sudo tar -C /opt -xzf nvim-linux-x86_64.tar.gz
-```
+### Mac
 
-2. Add NeoVim to your path by adding `export PATH="$PATH:/opt/nvim-linux-x86_64/bin"` to your `~/.bashrc`, `~/.zshrc`, or equivalent.
-3. Install ripgrep to enable the live-grepping functionality using `sudo apt install ripgrep -y`
-4. Create a folder `~/.config/nvim`
-5. Clone this repository in `~/.config/nvim`
-6. Run `nvim`
+To install this config on a Linux distrobution, follow the following steps:
+
+1. Install NeoVim, which for arm64 Macs can be done with `brew install neovim`
+2. Install ripgrep to enable the live-grepping functionality using `brew install ripgrep`
+3. Create a folder `~/.config/nvim`
+4. Clone this repository in `~/.config/nvim`
+5. Run `nvim`
+
+### Windows
+
+To install NeoVim for Windows, consult a guide on installation and setup. Clone this repository in your config folder, and you should be good to go. If you would like to install `ripgrep`, then click [here](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation).
 
 ## Commands
 
