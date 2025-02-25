@@ -16,7 +16,7 @@ To install this config on a Linux distrobution, follow the following steps:
 
 ### Mac
 
-To install this config on a Linux distrobution, follow the following steps:
+To install this config on MacOS, follow the following steps:
 
 1. Install NeoVim, which for arm64 Macs can be done with `brew install neovim`
 2. Install ripgrep to enable the live-grepping functionality using `brew install ripgrep`
