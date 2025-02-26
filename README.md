@@ -61,7 +61,7 @@ Here is a list of the most valuable commands that are added from extensions. Not
     - `<enter>`: Open the selected file
 - `<C-p>`: File search
 - `<leader>fg`: Live `grep` through your work
-- `K`: When hovering over a value/function in normal mode, press (capital) `K` to show the documentation for that value/function
-- `gd`: When hovering over a value, press `gd` to go to its definition
-- `<leader>ca`: When hovering over some sort of error, press `<leader>ca` to open a list of code actions to resolve the issue
+- `K`: Show the documentation for a value/function that the cursor is on
+- `gd`: Go to definition for a value/function that the cursor is on
+- `<leader>ca`: Open a list of code actions to resolve an issue related to a value/function that the cursor is on
 - `<leader>gf`: Format a file using a formatter "LSP" from Mason
