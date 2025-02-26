@@ -62,3 +62,4 @@ Here is a list of the most valuable commands that are added from extensions. Not
 - `K`: When hovering over a value/function in normal mode, press (capital) `K` to show the documentation for that value/function.
 - `gd`: When hovering over a value, press `gd` to go to its definition.
 - `<leader>ca`: When hovering over some sort of error, press `<leader>ca` to open a list of code actions to resolve the issue.
+- `<leader>gf`: Format a file using a formatter "LSP" from Mason
