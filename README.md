@@ -28,6 +28,8 @@ To install this config on MacOS, follow the following steps:
 4. Clone this repository in `~/.config/nvim`
 5. Run `nvim`
 
+**Note:** On MacOS, the default `terminal.app` does not support true colors. Please use iTerm2 or another terminal app to use the color theme.
+
 ### Windows
 
 To install NeoVim for Windows, consult a guide on installation and setup. Clone this repository in your config folder, and you should be good to go. If you would like to install `ripgrep`, then click [here](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation).
