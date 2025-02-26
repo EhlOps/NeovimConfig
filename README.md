@@ -16,7 +16,7 @@ To install this config on a Linux distrobution, follow the following steps:
 2. Install ripgrep to enable the live-grepping functionality using `sudo apt install ripgrep -y`
 3. Create a folder `~/.config/nvim`
 4. Clone this repository in `~/.config/nvim` 
-    - (`git clone https://github.com/EhlOps/NeovimConfig.git .`)
+    - `git clone https://github.com/EhlOps/NeovimConfig.git .`
 5. Run `nvim`
 
 ### Mac
@@ -27,7 +27,7 @@ To install this config on MacOS, follow the following steps:
 2. Install ripgrep to enable the live-grepping functionality using `brew install ripgrep`
 3. Create a folder `~/.config/nvim`
 4. Clone this repository in `~/.config/nvim`
-    - (`git clone https://github.com/EhlOps/NeovimConfig.git .`)
+    - `git clone https://github.com/EhlOps/NeovimConfig.git .`
 5. Run `nvim`
 
 **Note:** On MacOS, the default `terminal.app` does not support true colors. Please use iTerm2 or another terminal app to use the color theme.
