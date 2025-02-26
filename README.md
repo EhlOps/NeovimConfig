@@ -4,6 +4,8 @@ A basic NeoVim config for working in C.
 
 ## Installation
 
+### Pre Install
+
 Prior to installation, you will most likely want to install a nerd font configure your terminal to use it. Nerd fonts can be found [here](https://www.nerdfonts.com/font-downloads).
 
 ### Linux
@@ -29,6 +31,21 @@ To install this config on MacOS, follow the following steps:
 ### Windows
 
 To install NeoVim for Windows, consult a guide on installation and setup. Clone this repository in your config folder, and you should be good to go. If you would like to install `ripgrep`, then click [here](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation).
+
+### Post Install
+
+After installing, it will be useful to install your LSPs, your linters, and your formatters. Enter NeoVim, then type `:Mason`. This will bring Mason's menu up, and you can install these tools. The tools that are already configured are the following:
+
+- black
+- clang-format
+- clangd
+- eslint_d
+- isort
+- lua-language-server
+- prettier
+- stylua
+
+If you would like to install more LSPs, linters, or formatters, configure LSPs in `lua/plugins/lsp-config.lua` and everything else in `lua/plugins/none-ls.lua`. 
 
 ## Commands
 
